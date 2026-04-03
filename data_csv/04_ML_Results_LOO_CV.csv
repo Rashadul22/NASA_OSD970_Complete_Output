@@ -1,0 +1,17 @@
+Model_Feature,Model,Features,Accuracy,F1,AUC,MCC
+Random Forest (All 89 genes),Random Forest,All 89 genes,0.75,0.75,0.859375,0.5
+XGBoost (All 89 genes),XGBoost,All 89 genes,0.9375,0.9333333333333333,0.875,0.8819171036881969
+SVM (RBF) (All 89 genes),SVM (RBF),All 89 genes,0.6875,0.6666666666666666,0.71875,0.3779644730092272
+SVM (Linear) (All 89 genes),SVM (Linear),All 89 genes,0.8125,0.8,0.828125,0.629940788348712
+Logistic Regression (All 89 genes),Logistic Regression,All 89 genes,0.8125,0.8,0.890625,0.629940788348712
+KNN (k=3) (All 89 genes),KNN (k=3),All 89 genes,0.75,0.7142857142857143,0.7734375,0.5163977794943222
+Gradient Boosting (All 89 genes),Gradient Boosting,All 89 genes,0.9375,0.9411764705882353,0.875,0.8819171036881969
+Random Forest (Top 20 genes),Random Forest,Top 20 genes,0.8125,0.8235294117647058,0.921875,0.629940788348712
+XGBoost (Top 20 genes),XGBoost,Top 20 genes,0.9375,0.9333333333333333,0.875,0.8819171036881969
+SVM (RBF) (Top 20 genes),SVM (RBF),Top 20 genes,0.8125,0.8235294117647058,0.8125,0.629940788348712
+SVM (Linear) (Top 20 genes),SVM (Linear),Top 20 genes,0.75,0.75,0.859375,0.5
+Logistic Regression (Top 20 genes),Logistic Regression,Top 20 genes,0.875,0.875,0.921875,0.75
+KNN (k=3) (Top 20 genes),KNN (k=3),Top 20 genes,0.8125,0.8235294117647058,0.84375,0.629940788348712
+Gradient Boosting (Top 20 genes),Gradient Boosting,Top 20 genes,0.875,0.875,0.875,0.75
+PyTorch NN (All 89 genes),PyTorch NN,All 89 genes,0.6875,0.6666666666666666,0.90625,0.3779644730092272
+PyTorch NN (Top 20 genes),PyTorch NN,Top 20 genes,0.8125,0.8,0.921875,0.629940788348712
